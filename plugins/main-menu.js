@@ -125,8 +125,8 @@ ptt: true
 }
 handler.help = ['m']
 handler.tags = ['general']
-handler.alias = ['m']
-handler.command = /^(m)$/i
+handler.alias = ['menu']
+handler.command = /^(menu)$/i
 handler.exp = 3
 
 export default handler
